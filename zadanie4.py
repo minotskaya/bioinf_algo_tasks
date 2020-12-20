@@ -19,7 +19,6 @@ def suffix_tree_builder(genome):
                 break
     return root
 
-
 def update_edges(index, node):
     letter = genome[index]
     for i in node['_e']:
